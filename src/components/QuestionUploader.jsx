@@ -216,7 +216,8 @@ export default function QuestionUploader({ onClose }) {
                 {/* FOOTER */}
                 {/* ========================= */}
                 <div className="players-footer">
-                    <button className="scan-btn" onClick={setScannerOpen(true)}>
+                    <button className="scan-btn" onClick={() => setScannerOpen(true)}
+>
                         📷 Escanear QR
                     </button>
 
